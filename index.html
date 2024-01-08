@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinakin's Blog</title>
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        /* Custom styles for the navigation bar */
+        .navbar-dark {
+            background-color: #FF0000 !important; /* Red color */
+        }
+
+        /* Custom styles for the brand */
+        .navbar-brand {
+            font-family: 'Dancing Script', cursive; /* Use Dancing Script cursive font */
+            font-weight: bold; /* Make it bold */
+            font-size: 1.5rem; /* Adjust font size as needed */
+        }
+
+          /* Custom styles for the navigation links */
+          .navbar-nav {
+            margin-left: auto; /* Move the links to the right for centering */
+        }
+
+        .navbar-nav .nav-item {
+            margin-right: 15px; /* Adjust the margin as needed for spacing between items */
+        }
+
+
+        /* Custom styles for the navigation links */
+        .navbar-nav .nav-link {
+            font-family: 'Poppins', sans-serif; /* Use Poppins font */
+            font-weight: bold; /* Make it bold */
+            font-size: 1rem; /* Adjust font size as needed */
+        }
+
+           /* Custom styles for the logo image */
+           .navbar-brand img {
+            margin-right: 10px; /* Adjust the margin as needed for spacing */
+        }
+
+        /* Custom styles for the dropdown menu */
+        .navbar-dark .navbar-nav .nav-item .dropdown-menu {
+            background-color: #FF0000; /* Red color for dropdown menu */
+        }
+
+        
+        .container.marketing {
+            margin-top: 50px;
+            margin-bottom: 50px;
+            text-align: center;
+        }
+
+        /* Center the text within the carousel items */
+        .carousel-item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .btn-red {
+    background-color: #FF0000; /* Red color */
+    border: none;
+  }
+
+  .btn-custom-red {
+        background-color: #ff0000 !important; /* Red background color */
+        color: #ffffff; /* Text color, adjust as needed */
+        border-color: #ff0000 !important; /* Border color, adjust as needed */
+    }
+
+
+    </style>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Fifth navbar example">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Pinakin's Food Blog</a>
+          <img src="./Images/burger logo.png" alt="Logo" height="30" class="d-inline-block align-top">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbarsExample05">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Blog</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li> -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Recipes</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Breakfast Delights</a></li>
+                  <li><a class="dropdown-item" href="#">Appetizers & Starters</a></li>
+                  <li><a class="dropdown-item" href="#">Main Courses</a></li>
+                  <li><a class="dropdown-item" href="#">Desserts & Sweet Treats</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Gallery</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact me</a>
+              </li>
+
+            </ul>
+            <form role="search">
+              <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+      <!-- Three columns of text below the carousel -->
+
+      <div class="container marketing">
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="./Images/butterchicken.jpg" alt="Image 1" width="140" height="140" class="bd-placeholder-img rounded-circle">
+            <h2 class="fw-normal">Recipe of the Month</h2>
+            <p>Immerse yourself in a symphony of tastes that will elevate your dining experience. Get ready to savor this delectable creation!</p>
+            <p><a class="btn btn-secondary btn-red" href="#">View details »</a></p>
+          </div><!-- /.col-lg-4 -->
+         
+          <div class="col-lg-4">
+            <img src="./Images/Orangejuice.jpg" alt="Image 2" width="140" height="140" class="bd-placeholder-img rounded-circle">
+            <h2 class="fw-normal">Seasonal Special</h2>
+            <p>Experience the joy of cooking and tasting the best flavors nature has to offer. Click to explore the magic of seasonal cooking!</p>
+            <p><a class="btn btn-secondary btn-red" href="#">View details »</a></p>
+          </div><!-- /.col-lg-4 -->
+         
+          <div class="col-lg-4">
+            <img src="./Images/foodimage3.jpg" alt="Image 3" width="140" height="140" class="bd-placeholder-img rounded-circle">
+            <h2 class="fw-normal">Quick & Easy Delight</h2>
+            <p>This quick and easy delight will satisfy your taste buds without keeping you tied to the kitchen for hours. Discover the joy of hassle-free cooking with this flavorful recipe!</p>
+            <p><a class="btn btn-secondary btn-red" href="#">View details »</a></p>
+          </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+        
+
+     <!-- Blog Posts and Sidebar -->
+    <div class="container marketing">
+        <div class="row">
+            <!-- Blog Posts (Main content area) -->
+            <div class="col-md-9">
+                <!-- Blog Post 1 -->
+                <div class="card mb-4">
+                    <!-- Your blog post content here -->
+                    <img src="./Images/butterchicken.jpg" alt="Image 1" width="140" height="140" class="bd-placeholder-img rounded-circle">
+                    <h2 class="fw-normal">Recipe of the Month</h2>
+                    <p>Immerse yourself in a symphony of tastes that will elevate your dining experience. Get ready to savor this delectable creation!</p>
+                    <p><a class="btn btn-secondary btn-red" href="#">View details »</a></p>
+                </div>
+
+                <!-- Blog Post 2 -->
+                <div class="card mb-4">
+                    <!-- Your blog post content here -->
+                    <img src="./Images/Orangejuice.jpg" alt="Image 2" width="140" height="140" class="bd-placeholder-img rounded-circle">
+                    <h2 class="fw-normal">Seasonal Special</h2>
+                    <p>Experience the joy of cooking and tasting the best flavors nature has to offer. Click to explore the magic of seasonal cooking!</p>
+                    <p><a class="btn btn-secondary btn-red" href="#">View details »</a></p>
+                </div>
+
+                <!-- Blog Post 3 -->
+                <div class="card mb-4">
+                    <!-- Your blog post content here -->
+                    <img src="./Images/foodimage3.jpg" alt="Image 3" width="140" height="140" class="bd-placeholder-img rounded-circle">
+                    <h2 class="fw-normal">Quick & Easy Delight</h2>
+                    <p>This quick and easy delight will satisfy your taste buds without keeping you tied to the kitchen for hours. Discover the joy of hassle-free cooking with this flavorful recipe!</p>
+                    <p><a class="btn btn-secondary btn-red" href="#">View details »</a></p>
+                </div>
+            </div>
+
+            <!-- Sidebar (Right Side) -->
+            <div class="col-md-3">
+                <!-- Your sidebar content here -->
+                <div class="card" style="border: 0;">
+                    <div class="card-header" style="background-color: red; color: white; border: 0;">
+                        About Us
+                    </div>
+                    <div class="card-body" style="border: 0;">
+                        <img src="./Images/about is image.png" class="card-img-top rounded-circle" alt="About Us Image" style="border: 0;">
+                        <p>We are a fantastic team working together to bring you the best experience on our website.</p>
+                    </div>
+                </div>
+
+                <div class="card mt-4" style="border: 0;">
+                    <div class="card-header" style="background-color: red; color: white; border: 0;">
+                        Recent Posts
+                    </div>
+                    <ul class="list-group list-group-flush" style="border: 0;">
+                        <li class="list-group-item">Post 1</li>
+                        <li class="list-group-item">Post 2</li>
+                        <li class="list-group-item">Post 3</li>
+                    </ul>
+                </div>
+
+                <!-- Social Media Links with SVG Icons -->
+                <div class="card mt-4" style="border: 0;">
+                    <div class="card-header" style="background-color: red; color: white; border: 0;">
+                        Social Media
+                    </div>
+                    <div class="card-body" style="border: 0;">
+                        <ul class="list-unstyled text-left">
+                            <li class="mb-2">
+                                <a href="#" class="text-decoration-none">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                                        <!-- Facebook path here -->
+                                    </svg> Facebook
+                                </a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#" class="text-decoration-none">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                                        <!-- Twitter path here -->
+                                    </svg> Twitter
+                                </a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#" class="text-decoration-none">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                                        <!-- Instagram path here -->
+                                    </svg> Instagram
+                                </a>
+                            </li>
+                            <!-- Add more social media links as needed -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+      <!-- Foodies Story Section -->
+
+      <div class="p-5 mb-4 bg-body-tertiary rounded-3 text-center">
+        <div class="container-fluid py-5">
+            <h1 class="display-5 fw-bold">Foodies Story of the week</h1>
+            <p class="col-md-8 fs-4 mx-auto">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
+            <button class="btn btn-lg btn-custom-red" type="button">Example button</button>
+        </div>
+    </div>
+      
+      
+      
+      
+   
+
+<!-- Footer -->
+<div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <p class="col-md-4 mb-0 text-body-secondary">© 2023 Pinakin's Food Blog, All rights reserved.</p>
+  
+      <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <!-- <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg> -->
+        <img src="./Images/burger logo.png" height="30" alt="Pinakin's Food Blog logo   ">
+      </a>
+  
+      <ul class="nav col-md-4 justify-content-end">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About the Blog</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Recipes</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Gallery</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Contact me</a></li>
+      </ul>
+    </footer>
+  </div>
+
+
+
+
+
+    <!--Scripts  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+
+</body>
+</html>
